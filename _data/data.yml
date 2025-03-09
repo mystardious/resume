@@ -3,35 +3,35 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
+  position: left # position of the sidebar : left or right
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Mohamed Maatouk
+  tagline: Backend Software Engineer & Cloud Automation Specialist
+  avatar: profile.png # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+  email: mohamed@maatouk.com.au
+  phone: (61) 452 520 520
+  # timezone: Australia/Sydney # Enter your timezone
+  citizenship: Australian
+  website: https://maatouk.com.au/ # Provide your website URL if available
+  linkedin: mohamed-maatouk-401305132
+  xing: 
+  github: mystardious # Your GitHub username if applicable
+  telegram: # Your telegram username if applicable
+  gitlab: 
+  bitbucket: 
+  bluesky: 
+  twitter: 
+  stack-overflow: # Number/Username, e.g. 123456/mohamedmaatouk
+  codewars: 
+  goodreads: # Number-Username, e.g. 123456-mohamedmaatouk
+  mastodon: # Provide your Mastodon link if available
+  hackerrank: # Provide your HackerRank username
+  leetcode: # Provide your LeetCode username
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
@@ -40,247 +40,150 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: Arabic
+      level: Basic
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Card Games
       link:
-
 
     - item: Snowboarding
       link:
 
-
-    - item: Cooking
+    - item: HomeLab
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    With over six years of experience in backend software engineering and cloud automation, I excel at building and optimizing scalable, reliable systems that empower teams to deliver quickly and effectively. I specialize in backend development, infrastructure automation, and distributed systems, leveraging my strong foundation in relational databases, data integration, and CI/CD processes. I'm passionate about collaborating across teams to deliver high-impact, performant solutions that align with business needs.
+    
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: Bachelor of Engineering (Honours) with Bachelor of Commerce in Software Engineering, Accounting
+    university: Macquarie University
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Engineer/Platform Specialist
+    time: 09/2022 - Present
+    company: Data Addiction, Sydney NSW
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Enhanced CI/CD pipelines with Azure DevOps, automating testing and deployment workflows to minimize downtime and ensure consistency.
+      - Architected and maintained complex data pipelines using Azure Fabric and Databricks, focusing on relational database integrity to improve data accessibility and support data governance initiatives.
+      - Developed backend solutions using Python and Databricks to support scalable, distributed systems for data integration and processing.
+      - Implemented infrastructure automation with Terraform and Azure DevOps, enabling efficient, repeatable deployments and reducing setup time by 50%.
+      - Upskilled teams on the Lakehouse data platform, guiding them in the migration process and onboarding to new technologies and processes.
+      - Automated data ingestion pipelines for integration with multiple APIs (ServiceNow, Azure Purview, MS SQL Server).
+      - Facilitated cross-functional knowledge sharing through code reviews and technical sessions, ensuring alignment on best practices for performance and maintainability.
+      - Built a robust data replication process, ensuring consistency and reliability across different environments and optimizing code for high performance and scalability.
+      - Developed reusable Terraform scripts for streamlined deployments, facilitating quicker setup for internal and client environments.
+      - Generated customized reports for the Data Governance team, using the Purview API to display dataset classifications and ownership, supporting compliance and transparency.
+      - Documented backend processes with ERDs, lineage diagrams, and source system graphs, supporting efficient knowledge transfer and high-quality code.
+
+  - role: Software Engineer/Cloud Administrator
+    time: 01/2021 - 08/2022
+    company: Spark Interact, Sydney NSW
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Automated CI/CD workflows using Python and Bash scripts, reducing manual deployment tasks by 70% and enabling zero-downtime updates.
+      - Built and maintained backend services and full-stack applications on Google Cloud Platform with React, PHP, and MySQL, ensuring performance and cross-platform responsiveness.
+      - Developed Bash scripts for automation, optimizing cloud system management and backup processes.
+
+  - role: System Administrator
+    time: 12/2018 - 11/2020
+    company: TAC Australia, Parramatta NSW
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Developed and maintained Windows Server environments, utilizing Active Directory, MYOB, and SQL to ensure system reliability and performance.
+      - Designed and implemented a Microsoft Access database for efficient client information storage and retrieval, improving data organization and accessibility.
+
+  - role: Software Engineer (Internship)
+    time: 10/2018 - 12/2018
+    company: DXC Technology
+    details: |
+      - Developed a thread-safe ring buffer in C++ using mutexes, condition variables, and platform-specific atomic operations, ensuring efficient data transfer and synchronization in multithreaded environments.
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
+  - name: Azure Data Engineer Associate
+    start: 02/2025
+    end: 02/2026
     organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
+  - name: Azure Administrator Associate
+    start: 10/2024
+    end: 10/2025
     organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+
+  - name: Azure Solutions Architect Expert
+    start: 06/2024
+    end: 06/2025
+    organization: Microsoft
+
+  - name: Certified ScrumMaster
+    start: 10/2023
+    end: 10/2025
+    organization: Scrum Alliance
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
+  - title: Medical Discharge Report Segmentation (Thesis)
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
+    tagline: "Developed an NLP and machine learning solution to segment medical reports by section, achieving 92% accuracy across 17 unique sections."
+  - title: AniScrape
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: Designed and implemented a web scraping solution using Selenium and Python to efficiently retrieve anime data from a target website. Integrated this solution with the Overseerr API, automating content requests and enhancing personal media management.
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     Contributed to various open-source projects focusing on backend development, cloud automation, and data engineering.
+#   contributions:
+#   - title: [Insert Project Name]
+#     link: "#"
+#     tagline: "Open-source contribution to backend development and cloud automation tools."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications here. As of now, there are no publications linked to this resume.
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: [Name of person]
+#     email: [Their email]
+#     phone: [Their phone number]
+#     role: [Their role at the company]
+#     recommendation: |
+#       [Testimonial or recommendation text.]
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills & Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Python
+    level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: C++
+    level: 90%
 
-  - name: Angular
-    level: 98%
+  - name: Java
+    level: 90%
 
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
+  - name: SQL
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Bash
+    level: 80%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  - name: PHP
+    level: 75%
+
+  - name: JavaScript
+    level: 80%
